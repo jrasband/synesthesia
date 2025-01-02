@@ -1,0 +1,8 @@
+{
+    "tag-color-weight": {
+      "Mathematics": {"color": "green", "weight": 0.8},
+      "Arts": {"color": "#FF0000", "weight": 0.2},
+      "Science": {"color": "blue", "weight": 1.0},
+      "": {"color": "#888", "weight": 0.5}
+    }
+  }

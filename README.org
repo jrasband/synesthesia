@@ -1,0 +1,27 @@
+#+title: Synesthesia 🎨
+
+* Introduction
+Synesthesia is a simple Anki add-on that adds a colored border to Anki cards
+based on their tags. This can help reduce the cognitive load associated with
+interleaved practice, while maintaining most of the benefits.
+
+* Configuration and usage
+The tag-color pairs are defined in a configuration file.
+Each tag-color pair also has a weight that is used to determine which color is
+shown when a card has multiple tags and there is a conflict.
+
+Example config:
+#+begin_example json
+  {
+      "tag-color-weight": {
+        "Mathematics": {"color": "green", "weight": 0.8},
+        "Arts": {"color": "#FF0000", "weight": 0.2},
+        "Science": {"color": "blue", "weight": 1.0},
+        "": {"color": "#888", "weight": 0.5}
+      }
+    }
+#+end_example
+
+* Contributing
+This is an early version, so will likely break when it meets the real world.
+Please open a GitHub issue if you see any errors or have any unexpected behavior.
